@@ -7,7 +7,8 @@ using the GPIO Pins.
 Run
 ---
 
-The use of GPIO pins requires root access.
+The use of GPIO pins requires root access. Build with Maven and copy the resulting jar to your RaspberryPi. Login to your RPi and
+start the Application.
 
 	sudo java -Djavafx.platform=eglfb -cp ./'*':/opt/java/jdk1.8.0/jre/lib/jfxrt.jar:/opt/pi4j/lib/'*' de.javamagazin.raspifxbutton.App
 
