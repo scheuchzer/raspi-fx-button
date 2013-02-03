@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane id="Background" maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="640"
+	xmlns:fx="http://javafx.com/fxml">
+	<children>
+		<VBox spacing="20" alignment="CENTER" AnchorPane.bottomAnchor="213.0"
+			AnchorPane.leftAnchor="168.0" AnchorPane.rightAnchor="168.0"
+			AnchorPane.topAnchor="214.0">
+			<children>
+				<HBox alignment="CENTER" minHeight="400.0">
+					<children>
+						<Button fx:id="button" prefWidth="400.0" prefHeight="400.0"
+							styleClass="Off" onMousePressed="#onMousePressed"
+							onMouseReleased="#onMouseReleased" />
+					</children>
+				</HBox>
+			</children>
+		</VBox>
+	</children>
+	<stylesheets>
+		<URL value="@Gui.css" />
+	</stylesheets>
+</AnchorPane>

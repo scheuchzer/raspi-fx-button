@@ -1,0 +1,15 @@
+#Background {
+	-fx-background-color: #18171d;
+}
+.Off {
+	-fx-background-color: #18171d;
+	-fx-background-image: url('panic_off.png');
+	-fx-background-size: stretch;
+}
+
+.On {
+	-fx-background-color: #18171d;
+	-fx-background-image: url('panic_on.png');
+	-fx-background-size: stretch;
+}
+	
