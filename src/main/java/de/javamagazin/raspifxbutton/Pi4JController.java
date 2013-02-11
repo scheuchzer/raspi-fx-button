@@ -27,11 +27,7 @@ public class Pi4JController implements HwController {
 			@Override
 			public void handleGpioPinDigitalStateChangeEvent(
 					GpioPinDigitalStateChangeEvent event) {
-				if (PinState.HIGH.equals(event.getState())) {
-					model.set(true);
-				} else {
-					model.set(false);
-				}
+				model.set(PinState.HIGH.equals(event.getState()));
 			}
 		});
 	}
