@@ -4,6 +4,8 @@ raspi-fx-button
 Demo Application for the Raspberry Pi which integrates a hardware button into a JavaFX application
 using the GPIO Pins.
 
+This is the source code for the article "Himbeerkuchen mit Kaffe" published in [issue 5.2013 of the JavaMagazin.](http://it-republik.de/jaxenter/java-magazin-ausgaben/JavaFX-000544.html).
+
 Run
 ---
 
@@ -28,4 +30,10 @@ Install Java8
 	sudo update-alternatives --install "/usr/bin/java" "java" "/opt/java/jdk1.8.0/bin/java" 1
 	sudo update-alternatives --set java /opt/java/jdk1.8.0/bin/java
 	java -version
+
+
+Author
+------
+
+[Thomas Scheuchzer](http://www.java-adventures.com/)
 
